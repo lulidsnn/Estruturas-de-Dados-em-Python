@@ -13,7 +13,6 @@ def validar_expressao(expressao):
                 return False
     return not pilha
 
-
 if __name__ == "__main__":
     expressao = input("Digite a expressão matemática: ")
     if validar_expressao(expressao):
